@@ -1,0 +1,39 @@
+.Gridl,
+.Avaible,
+.Card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid transparent;
+  color: white;
+  margin: 1vh;
+  padding: 1px;
+  height: 10vh;
+  width: 10vh;
+  border-radius: 13%;
+  font-size: 5vh;
+}
+p {
+  margin: 0;
+}
+.Avaible:hover {
+  background-color: green;
+  opacity: 30%;
+}
+
+.Card {
+  background-color: black;
+  border-color: rgb(0, 0, 0);
+  color: white;
+  /* font-size: 1rem; */
+  font-weight: bold;
+}
+.select {
+  position: absolute;
+  /* background-image: none; */
+  height: 107%;
+  width: 107%;
+  z-index: 11;
+  background-color: rgba(246, 246, 246, 0.773);
+}

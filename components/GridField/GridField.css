@@ -1,0 +1,13 @@
+.Grid {
+  display: flex;
+  border: 1px solid blue;
+  min-height: 100%;
+  min-width: 100%;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  scroll-behavior: smooth;
+  /* scrollbar-width: ; */
+}

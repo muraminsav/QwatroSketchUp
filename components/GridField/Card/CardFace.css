@@ -1,0 +1,51 @@
+.red {
+  background-color: rgb(212, 22, 22);
+}
+.blue {
+  background-color: rgb(31, 92, 233);
+}
+.green {
+  background-color: rgb(10, 175, 10);
+}
+.yellow {
+  background-color: #e3ce08;
+}
+.cross,
+.circle,
+.square,
+.triangle {
+  margin: auto;
+  padding: 0;
+  display: flex;
+  width: 90%;
+  height: 90%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /* border: 4px solid black; */
+}
+.cross {
+  background-image: url("https://muraminsav.github.io/shapes/shapes(1).png");
+
+  background-size: 300%;
+  background-repeat: no-repeat;
+  background-position-x: 77.5%;
+  background-position-y: 80%;
+}
+.circle {
+  border-radius: 50%;
+}
+.square {
+  width: 85%;
+  height: 85%;
+  border-radius: 20%;
+}
+.triangle {
+  background-image: url("https://muraminsav.github.io/shapes/shapes(1).png");
+
+  background-size: 300%;
+  background-repeat: no-repeat;
+  background-position-x: 77.5%;
+  background-position-y: 21%;
+}
